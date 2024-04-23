@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0%;
+    }
+
+    body {
+        background-color: aqua;
+
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        height: 400px;
+        width: 400px;
+        padding: 30px;
+        flex-direction: column;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="child">
+            <form class="form" method="get">
+                <label>Nome:</label>
+                <input type="text" name="" id="" class="nome"><br><br>
+                <label>Sobrenome:</label>
+                <input type="text" name="" class="sobrenome"><br><br>
+                <label>Peso:</label>
+                <input type="text" name="" class="peso"><br><br>
+                <label>Altura:</label>
+                <input type="text" name="" class="altura"><br><br>
+                <button>Enviar</button>
+            </form>
+
+            <div class="resultado">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/js.js"></script>
+
+</html>
