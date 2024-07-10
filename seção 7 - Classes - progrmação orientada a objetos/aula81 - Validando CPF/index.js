@@ -50,3 +50,5 @@ if (validaCPF.valida()) {
 } else {
     console.log('CPF inválido');
 }
+
+//teste
